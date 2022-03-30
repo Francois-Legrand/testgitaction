@@ -1,8 +1,5 @@
 name: GitHub Actions Demo
 on: [push]
-//activation sur pull request vers la branche main
-//push sur la branche main
-
 jobs:
   TestApplication:
     runs-on: ubuntu-latest
