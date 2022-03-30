@@ -1,5 +1,8 @@
 name: GitHub Actions Demo
 on: [push]
+//activation sur pull request vers la branche main
+//push sur la branche main
+
 jobs:
   TestApplication:
     runs-on: ubuntu-latest
@@ -13,8 +16,11 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Effectuer les test
+      - name: commande de test
         run: mvn test
+      - name: Effectuer le cas de test
+        run: mvn -Dtest=CalculatriceTest test
+
 
 
 
