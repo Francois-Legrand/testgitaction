@@ -1,66 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="fr.semifir.CalculatriceTest" time="0" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.semifir.CalculatriceTest" time="0.006" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="15.0.1+9-18"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\yyper\Desktop\support_md\java-test-sonar"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="FR"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\yyper\Desktop\support_md\java-test-sonar"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="15.0.1+9-18"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\yyper\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\dev\maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="sonar.login" value="274de7ee1ab995a42f54f7f1e8e303fe1e1398ac"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;%JAVA_HOME\bin;C:\dev\maven\apache-maven-3.6.3\bin;&quot;PATH=%PATH%;C:\Program Files\Oracle\VirtualBox&quot;;C:\php;C:\composer;C:\Users\yyper\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\shopizer\sonar-scanner-2.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\yyper\AppData\Local\Microsoft\WindowsApps;C:\Users\yyper\AppData\Local\GitHubDesktop\bin;C:\Users\yyper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yyper\AppData\Roaming\npm;C:\Program Files\Java\jdk-15.0.1;C:\Program Files\heroku\bin;&quot;PATH=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;%JAVA_HOME\bin;C:\dev\maven\apache-maven-3.6.3\bin;&quot;PATH=%PATH%;C:\Program Files\Oracle\VirtualBox&quot;;C:\php;C:\composer;C:\Users\yyper\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\shopizer\sonar-scanner-2.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Oracle\VirtualBox&quot;;C:\Users\yyper\AppData\Roaming\Composer\vendor\bin;C:\Users\yyper\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\shopizer\sonar-scanner-2.6.1\bin;;."/>
-    <property name="maven.conf" value="C:\dev\maven\apache-maven-3.6.3\bin\../conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="59.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\dev\maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\yyper"/>
-    <property name="user.timezone" value="Europe/Paris"/>
-    <property name="sonar.host.url" value="http://localhost:9000"/>
-    <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="15"/>
-    <property name="sonar.projectKey" value="TestSonar"/>
-    <property name="user.name" value="yyper"/>
-    <property name="java.class.path" value="C:\dev\maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\yyper\Desktop\support_md\java-test-sonar\target\test-classes;C:\Users\yyper\Desktop\support_md\java-test-sonar\target\classes;C:\Users\yyper\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\yyper\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yyper\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\yyper\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify sonar:sonar -Dsonar.projectKey=TestSonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=274de7ee1ab995a42f54f7f1e8e303fe1e1398ac"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\yyper\AppData\Local\Temp\surefire880704099195108840\surefirebooter1284556890152464303.jar C:\Users\yyper\AppData\Local\Temp\surefire880704099195108840 2022-03-30T11-54-23_009-jvmRun1 surefire15366693359153890575tmp surefire_0818855124556943245tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\yyper\Desktop\support_md\java-test-sonar\target\test-classes;C:\Users\yyper\Desktop\support_md\java-test-sonar\target\classes;C:\Users\yyper\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\yyper\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yyper\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\yyper\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yyper"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="15.0.1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp850"/>
-    <property name="maven.home" value="C:\dev\maven\apache-maven-3.6.3\bin\.."/>
-    <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\yyper\Desktop\support_md\java-test-sonar"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\yyper\AppData\Local\Temp\surefire880704099195108840\surefirebooter1284556890152464303.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="yyper"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\yyper\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\yyper\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\yyper\Desktop\support_md\java-test-sonar"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;%JAVA_HOME\bin;C:\dev\maven\apache-maven-3.6.3\bin;&quot;PATH=%PATH%;C:\Program Files\Oracle\VirtualBox&quot;;C:\php;C:\composer;C:\Users\yyper\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\shopizer\sonar-scanner-2.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\yyper\AppData\Local\Microsoft\WindowsApps;C:\Users\yyper\AppData\Local\GitHubDesktop\bin;C:\Users\yyper\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yyper\AppData\Roaming\npm;C:\Program Files\Java\jdk-15.0.1;C:\Program Files\heroku\bin;&quot;PATH=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;%JAVA_HOME\bin;C:\dev\maven\apache-maven-3.6.3\bin;&quot;PATH=%PATH%;C:\Program Files\Oracle\VirtualBox&quot;;C:\php;C:\composer;C:\Users\yyper\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\shopizer\sonar-scanner-2.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Oracle\VirtualBox&quot;;C:\Users\yyper\AppData\Roaming\Composer\vendor\bin;C:\Users\yyper\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\shopizer\sonar-scanner-2.6.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="cp850"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="59.0"/>
   </properties>
+  <testcase name="fr.semifir.CalculatriceTest.testMultiplication" classname="fr.semifir.CalculatriceTest" time="0"/>
+  <testcase name="fr.semifir.CalculatriceTest.testDivision" classname="fr.semifir.CalculatriceTest" time="0"/>
+  <testcase name="fr.semifir.CalculatriceTest.testAddition" classname="fr.semifir.CalculatriceTest" time="0"/>
+  <testcase name="fr.semifir.CalculatriceTest.testSoustraction" classname="fr.semifir.CalculatriceTest" time="0"/>
 </testsuite>
