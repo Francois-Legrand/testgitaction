@@ -7,6 +7,7 @@ public class CalculatriceTest {
 
     @Test
     public void addition() {
+        //comment
         int result = Calculatrice.addition(10,10,10);
         assertEquals(30, result);
     }
