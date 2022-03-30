@@ -13,8 +13,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: commande de test
-        run: mvn test
       - name: Effectuer le cas de test
         run: mvn -Dtest=CalculatriceTest test
 
